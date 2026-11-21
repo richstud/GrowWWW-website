@@ -1,0 +1,7 @@
+project_id = "aryvikihjbpedoytwkxc"
+
+[functions.submit-enquiry]
+verify_jwt = false
+
+[functions.submit-to-google-sheets]
+verify_jwt = false

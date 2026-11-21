@@ -1,0 +1,24 @@
+import { ServicePage } from "@/components/ServicePage";
+import { AppDemo } from "@/components/home/ServiceBento";
+
+export default function SoftwareSolutions() {
+  return (
+    <ServicePage
+      path="/services/software-solutions"
+      demo={<AppDemo />}
+      formService="Mobile app (Android / iOS)"
+      formHeading="Tell us about your app or software"
+      extra={{
+        title: "What we build",
+        rows: [
+          { name: "Mobile apps", text: "Android and iOS apps from one codebase with Flutter or React Native." },
+          { name: "Web applications", text: "Customer portals, dashboards and booking systems that run in the browser." },
+          { name: "CRM & ERP", text: "Leads, quotes, inventory and billing built around your own process." },
+          { name: "SaaS products", text: "Multi-customer platforms with subscriptions and admin panels." },
+          { name: "APIs & integrations", text: "Payment gateways, WhatsApp, Tally, Google Sheets and more." },
+          { name: "Tech stack", text: "TypeScript, Python, Java, Go · React, Node.js, Django · PostgreSQL, MongoDB · AWS, Azure, Google Cloud" },
+        ],
+      }}
+    />
+  );
+}

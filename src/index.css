@@ -1,0 +1,354 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 30 14% 5%;
+    --foreground: 38 30% 92%;
+
+    --card: 30 10% 8%;
+    --card-foreground: 38 25% 90%;
+
+    --popover: 30 12% 7%;
+    --popover-foreground: 0 0% 96%;
+
+    /* Gold-on-black premium theme */
+    --primary: 38 65% 62%;
+    --primary-foreground: 0 0% 6%;
+    --primary-glow: 44 85% 72%;
+
+    --secondary: 30 8% 12%;
+    --secondary-foreground: 0 0% 94%;
+
+    --muted: 30 8% 13%;
+    --muted-foreground: 36 10% 66%;
+
+    --accent: 38 65% 62%;
+    --accent-foreground: 0 0% 6%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 34 10% 17%;
+    --input: 34 10% 15%;
+    --ring: 38 65% 62%;
+
+    --radius: 0.75rem;
+
+    /* Racing green - second brand colour, used for one band per page */
+    --racing: 154 34% 13%;
+    --racing-foreground: 40 35% 90%;
+
+    /* "Paper" - a slightly warmer dark tone that sets sections apart without bright fills */
+    --paper: 32 16% 8%;
+    --paper-foreground: 38 30% 92%;
+    --paper-muted: 36 10% 66%;
+    --paper-border: 36 22% 19%;
+
+    --orange: 38 65% 62%;
+    --orange-dark: 32 55% 50%;
+    --gold: 44 85% 68%;
+    --gold-deep: 32 60% 42%;
+
+    --gradient-gold: linear-gradient(135deg, hsl(44 90% 72%), hsl(38 70% 58%) 45%, hsl(32 55% 42%));
+    --gradient-gold-soft: linear-gradient(135deg, hsl(38 65% 62% / 0.18), hsl(32 55% 42% / 0.08));
+    --gradient-hero: radial-gradient(1200px 500px at 50% -10%, hsl(38 65% 62% / 0.22), transparent 60%);
+
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.55);
+    --shadow-elegant: 0 20px 60px -20px hsl(38 65% 62% / 0.35), 0 1px 0 0 hsl(38 65% 62% / 0.15) inset;
+    --shadow-gold-glow: 0 0 40px hsl(38 65% 62% / 0.35);
+
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 38 65% 62%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 38 65% 62%;
+  }
+
+
+  .dark {
+    --background: 30 14% 5%;
+    --foreground: 38 30% 92%;
+    --card: 30 10% 8%;
+    --card-foreground: 38 25% 90%;
+    --popover: 30 12% 7%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 38 65% 62%;
+    --primary-foreground: 0 0% 6%;
+    --secondary: 30 8% 12%;
+    --secondary-foreground: 0 0% 94%;
+    --muted: 30 8% 13%;
+    --muted-foreground: 36 10% 66%;
+    --accent: 38 65% 62%;
+    --accent-foreground: 0 0% 6%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 34 10% 17%;
+    --input: 34 10% 15%;
+    --ring: 38 65% 62%;
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 38 65% 62%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 38 65% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+
+  h1, h2 {
+    font-family: 'Bodoni Moda', 'Didot', 'Times New Roman', serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+  ::-moz-selection {
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+}
+
+@layer utilities {
+  .text-shimmer-gold {
+    background: linear-gradient(100deg, hsl(32 55% 42%) 0%, hsl(44 90% 72%) 25%, hsl(48 100% 88%) 38%, hsl(44 90% 72%) 50%, hsl(38 70% 58%) 75%, hsl(32 55% 42%) 100%);
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gold-shimmer 6s linear infinite;
+  }
+  @keyframes gold-shimmer {
+    from { background-position: 100% 0; }
+    to { background-position: -150% 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .text-shimmer-gold { animation: none; background-position: 50% 0; }
+  }
+
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .bg-gradient-gold-soft {
+    background: var(--gradient-gold-soft);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-gold-glow {
+    box-shadow: var(--shadow-gold-glow);
+  }
+
+  .text-gradient-orange {
+    @apply bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent;
+  }
+  
+  .text-orange {
+    color: hsl(var(--orange));
+  }
+  
+  .bg-orange {
+    background-color: hsl(var(--orange));
+  }
+  
+  .shadow-sm {
+    box-shadow: var(--shadow-sm);
+  }
+
+  .shadow-md {
+    box-shadow: var(--shadow-md);
+  }
+
+  .shadow-lg {
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      hsl(var(--primary) / 0.1) 50%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes scroll-up {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-33.33%);
+    }
+  }
+  
+  .animate-scroll-left {
+    animation: scroll-left 30s linear infinite;
+  }
+  
+  .animate-scroll-left-slow {
+    animation: scroll-left 40s linear infinite;
+  }
+
+  .animate-marquee {
+    animation: scroll-left 55s linear infinite;
+  }
+
+  /* Outlined serif type for the services marquee */
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1px hsl(var(--primary) / 0.75);
+  }
+  
+  /* Elegant horse stride - subtle rhythmic movement */
+  @keyframes horse-stride {
+    0%, 100% {
+      transform: translateX(0);
+      filter: contrast(1.1) brightness(1.05) drop-shadow(0 0 0px rgba(232, 161, 102, 0));
+    }
+    50% {
+      transform: translateX(2px);
+      filter: contrast(1.1) brightness(1.05) drop-shadow(0 0 8px rgba(232, 161, 102, 0.3));
+    }
+  }
+
+  /* Power glow - subtle pulsing energy */
+  @keyframes power-glow {
+    0%, 100% {
+      filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4));
+    }
+    50% {
+      filter: drop-shadow(0 0 25px rgba(232, 161, 102, 0.6));
+    }
+  }
+
+  .animate-horse-stride {
+    animation: horse-stride 3s ease-in-out infinite;
+  }
+
+  .animate-power-glow {
+    animation: power-glow 2s ease-in-out infinite;
+  }
+}
+
+/* ---------- Moving bands (services marquee, client logo wall) ---------- */
+.marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left var(--marquee-speed, 60s) linear infinite;
+}
+.marquee-track.is-reverse { animation-direction: reverse; }
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track { animation-play-state: paused; }
+
+/* Client logo tiles: a slow gold light sweeps across, and they lift on hover */
+.logo-tile { position: relative; overflow: hidden; }
+.logo-tile::after {
+  content: "";
+  position: absolute;
+  inset: -40% auto -40% -60%;
+  width: 40%;
+  transform: rotate(18deg);
+  background: linear-gradient(90deg, transparent, hsl(44 85% 72% / 0.16), transparent);
+  animation: logo-sheen 7s ease-in-out infinite;
+  animation-delay: var(--sheen-delay, 0s);
+  pointer-events: none;
+}
+@keyframes logo-sheen {
+  0%, 55% { left: -60%; }
+  100% { left: 130%; }
+}
+.text-gold-gradient {
+  background: linear-gradient(180deg, hsl(44 90% 76%), hsl(38 65% 58%) 55%, hsl(32 55% 44%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee { -webkit-mask-image: none; mask-image: none; }
+  .marquee-track { animation: none; width: auto; flex-wrap: wrap; justify-content: center; row-gap: 0.75rem; }
+  .marquee-track [data-copy="true"] { display: none; }
+  .logo-tile::after { animation: none; display: none; }
+  .marquee-secondary { display: none; }
+}

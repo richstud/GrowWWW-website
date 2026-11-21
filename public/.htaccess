@@ -1,0 +1,43 @@
+# GrowWWW - Apache rules for the built site (copied into dist/ by Vite).
+# Works with the pages written by scripts/prerender-seo.mjs.
+DirectoryIndex index.html
+DirectorySlash Off
+Options -Indexes
+RewriteEngine On
+
+# 1. One version of every URL: https + www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.growwww.in/$1 [L,R=301]
+
+# 2. Drop trailing slashes: /about/ -> /about
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+# 3. Real files (assets, images, sitemap.xml, robots.txt) are served as-is
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# 4. /about -> about.html, /services/web-design -> services/web-design.html
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+)$ /$1.html [L]
+
+# 5. App routes without a pre-built page (product pages, admin) -> app shell
+RewriteRule ^(products/.+|portfolio/.+|admin(/.*)?)$ /_spa.html [L]
+
+# 6. Everything else is a real 404 (no more "soft 404s")
+ErrorDocument 404 /404.html
+
+# Caching: hashed build files for a year, HTML always re-checked
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2?|png|jpe?g|webp|svg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml
+</IfModule>
