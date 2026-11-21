@@ -5,9 +5,16 @@ DirectorySlash Off
 Options -Indexes
 RewriteEngine On
 
-# 1. One version of every URL: https + www
-RewriteCond %{HTTPS} off [OR]
+# 1. One version of every URL: https + www.
+#    Many hosts (serverbyt / 20i and others) handle HTTPS in front of Apache, so %{HTTPS} is always
+#    "off" here - checking it alone causes an endless redirect loop. Only redirect when nothing says
+#    the visitor is already on HTTPS.
 RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.growwww.in/$1 [L,R=301]
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https [NC]
+RewriteCond %{HTTP:X-Forwarded-SSL} !=on [NC]
 RewriteRule ^(.*)$ https://www.growwww.in/$1 [L,R=301]
 
 # 2. Drop trailing slashes: /about/ -> /about
