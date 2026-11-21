@@ -124,7 +124,7 @@ function head({ path, title, description, noindex, keywords, image }) {
 function body({ h1, intro, extra = "" }) {
   const nav = NAV.map(([href, label]) => `<a href="${href}">${label}</a>`).join(" | ");
   const services = SERVICE_LINKS.map(([href, p]) => `<li><a href="${href}">${esc(p.h1)}</a> - ${esc(p.intro)}</li>`).join("");
-  return `<div id="root"><header><nav>${nav}</nav></header><main><h1>${esc(h1)}</h1><p>${esc(intro)}</p>${extra}<h2>Our services</h2><ul>${services}</ul></main><footer><p>${esc(site.name)} | <a href="mailto:${site.email}">${site.email}</a> | <a href="tel:${site.phone.replace(/\s/g, "")}">${esc(site.phone)}</a> | ${esc(site.locationLabel)}</p></footer></div>`;
+  return `<div id="root"><div class="seo-shell"><div class="seo-bar" aria-hidden="true"></div><header><nav>${nav}</nav></header><main><h1>${esc(h1)}</h1><p>${esc(intro)}</p>${extra}<h2>Our services</h2><ul>${services}</ul></main><footer><p>${esc(site.name)} | <a href="mailto:${site.email}">${site.email}</a> | <a href="tel:${site.phone.replace(/\s/g, "")}">${esc(site.phone)}</a> | ${esc(site.locationLabel)}</p></footer></div></div>`;
 }
 
 function render({ path, page, noindex = false, schemas = [], extra = "" }) {

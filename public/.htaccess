@@ -17,21 +17,25 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !=https [NC]
 RewriteCond %{HTTP:X-Forwarded-SSL} !=on [NC]
 RewriteRule ^(.*)$ https://www.growwww.in/$1 [L,R=301]
 
-# 2. Drop trailing slashes: /about/ -> /about
+# 2. /index.html -> / (only when someone types it; the server still uses index.html internally)
+RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
+RewriteRule ^index\.html$ / [L,R=301]
+
+# 3. Drop trailing slashes: /about/ -> /about
 RewriteRule ^(.+)/$ /$1 [L,R=301]
 
-# 3. Real files (assets, images, sitemap.xml, robots.txt) are served as-is
+# 4. Real files (assets, images, sitemap.xml, robots.txt) are served as-is
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# 4. /about -> about.html, /services/web-design -> services/web-design.html
+# 5. /about -> about.html, /services/web-design -> services/web-design.html
 RewriteCond %{DOCUMENT_ROOT}/$1.html -f
 RewriteRule ^(.+)$ /$1.html [L]
 
-# 5. App routes without a pre-built page (product pages, admin) -> app shell
+# 6. App routes without a pre-built page (product pages, admin) -> app shell
 RewriteRule ^(products/.+|portfolio/.+|admin(/.*)?)$ /_spa.html [L]
 
-# 6. Everything else is a real 404 (no more "soft 404s")
+# 7. Everything else is a real 404 (no more "soft 404s")
 ErrorDocument 404 /404.html
 
 # Caching: hashed build files for a year, HTML always re-checked

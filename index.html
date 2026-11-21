@@ -22,6 +22,21 @@
     <meta property="og:site_name" content="GrowWWW" />
     <meta property="og:image" content="https://www.growwww.in/images/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
+    <!-- Shown for the second or two before the app loads (and to search engines): the page text, styled to match the site. -->
+    <style>
+      html, body { background: #0f0d0b; margin: 0; }
+      .seo-shell { color: #ece4d6; font: 16px/1.65 "Hanken Grotesk", system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 96px 20px 64px; }
+      .seo-shell h1 { font: 500 clamp(2.2rem, 6vw, 3.6rem)/1.05 "Bodoni Moda", Georgia, serif; margin: 0 0 20px; }
+      .seo-shell h2 { font: 500 1.6rem/1.2 "Bodoni Moda", Georgia, serif; margin: 40px 0 12px; color: #d9a955; }
+      .seo-shell h3 { font-size: 1rem; margin: 20px 0 4px; }
+      .seo-shell p, .seo-shell li { color: #b8ad9c; }
+      .seo-shell a { color: #d9a955; text-decoration: none; }
+      .seo-shell nav { position: fixed; inset: 0 0 auto; padding: 22px 20px; background: #0f0d0b; border-bottom: 1px solid #2a241c; font-size: 14px; }
+      .seo-shell ul { padding-left: 18px; }
+      .seo-bar { position: fixed; top: 0; left: 0; height: 2px; width: 30%; background: #d9a955; animation: seo-load 1.4s ease-in-out infinite; z-index: 2; }
+      @keyframes seo-load { from { transform: translateX(-100%); } to { transform: translateX(340%); } }
+      @media (prefers-reduced-motion: reduce) { .seo-bar { animation: none; width: 100%; opacity: 0.4; } }
+    </style>
   </head>
 
   <body>
