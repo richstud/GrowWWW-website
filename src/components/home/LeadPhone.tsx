@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useInView, useReducedMotion } from "framer-motion";
-import logo from "@/assets/growww-logo-full.png";
+import logo from "@/assets/growww-logo-full.webp";
 
 // Illustrative alerts - the kind of messages a client's phone receives after launch.
 const ALERTS = [

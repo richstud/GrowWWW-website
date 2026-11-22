@@ -10,7 +10,7 @@ import { PortfolioPanel } from "@/components/admin/PortfolioPanel";
 import { LogosPanel, ProductsPanel } from "@/components/admin/CatalogPanels";
 import { ContentPanel } from "@/components/admin/ContentPanel";
 import { SettingsPanel } from "@/components/admin/SettingsPanel";
-import logo from "@/assets/growww-logo-full.png";
+import logo from "@/assets/growww-logo-full.webp";
 import { cn } from "@/lib/utils";
 
 const TABS = [

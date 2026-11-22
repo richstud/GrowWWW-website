@@ -8,7 +8,7 @@ import { PageHero, primaryBtn } from "@/components/PageHero";
 import { ListSection, ProcessBand } from "@/components/ServicePage";
 import { useSiteContent } from "@/lib/content";
 import seo from "@/seo/seo.config.json";
-import logo from "@/assets/growww-logo-full.png";
+import logo from "@/assets/growww-logo-full.webp";
 
 const values = [
   { name: "Results over decoration", text: "A beautiful site that brings no enquiries has failed. We measure calls, forms and sales." },

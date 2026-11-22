@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, MessageCircle, Facebook, Instagram, Youtube, ArrowUpRight, Clock, Link2 } from "lucide-react";
-import logo from "@/assets/growww-logo-full.png";
+import logo from "@/assets/growww-logo-full.webp";
 import seo from "@/seo/seo.config.json";
 import { telLink, useSiteContent, waLink } from "@/lib/content";
 

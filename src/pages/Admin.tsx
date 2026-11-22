@@ -5,7 +5,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { Seo } from "@/components/Seo";
 import { GoldField } from "@/components/GoldField";
 import { inputCls } from "@/components/admin/shared";
-import logo from "@/assets/growww-logo-full.png";
+import logo from "@/assets/growww-logo-full.webp";
 
 export default function Admin() {
   const navigate = useNavigate();

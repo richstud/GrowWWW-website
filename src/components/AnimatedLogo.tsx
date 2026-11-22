@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoImage from "@/assets/growww-logo-full.png";
+import logoImage from "@/assets/growww-logo-full.webp";
 
 /** Site logo - always sits flush left in the navbar. */
 export const AnimatedLogo = () => (

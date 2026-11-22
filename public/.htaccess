@@ -40,11 +40,14 @@ ErrorDocument 404 /404.html
 
 # Caching: hashed build files for a year, HTML always re-checked
 <IfModule mod_headers.c>
+  # Build files have a fingerprint in their name, so they can be cached for a year
   <FilesMatch "\.(js|css|woff2?|png|jpe?g|webp|svg|ico)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
+  # Pages: the CDN may keep a copy for 10 minutes (so it answers in milliseconds instead of waking the
+  # server), browsers always check for a newer one. After uploading a new build, purge the CDN cache.
   <FilesMatch "\.(html|xml|txt)$">
-    Header set Cache-Control "no-cache"
+    Header set Cache-Control "public, max-age=0, s-maxage=600, stale-while-revalidate=86400"
   </FilesMatch>
 </IfModule>
 
