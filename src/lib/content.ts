@@ -40,7 +40,7 @@ export const DEFAULTS = {
     phone: seo.site.phone,
     whatsapp: seo.site.whatsapp,
     email: seo.site.email,
-    hours: "Mon–Fri 9 AM–6 PM · Sat 10 AM–4 PM",
+    hours: "Mon–Fri 8 AM–8 PM · Sat–Sun closed",
     offices: seo.site.offices.map(({ city, region }) => ({ city, region, address: "" })),
   } as Contact,
   testimonials: [] as Testimonial[],
