@@ -252,9 +252,9 @@
       "priority": 0.9
     },
     "/services/web-design": {
-      "title": "Website Design & Development Company | GrowWWW",
+      "title": "Website Design & Development Company in India | GrowWWW",
       "description": "Fast, mobile-friendly, SEO-ready business websites, e-commerce stores and landing pages. Website design & development in Mumbai, Navi Mumbai & Lucknow.",
-      "keywords": "website design company, website development company, web designer near me, business website design, e-commerce website development, online store development, landing page design, website redesign, responsive website design, SEO friendly website, WordPress website, React website, website maintenance",
+      "keywords": "website design company, website development company, web designer near me, business website design, e-commerce website development, online store development, landing page design, website redesign, responsive website design, SEO friendly website, WordPress website, React website, website maintenance, website design company in India, website development company India, web design agency India, best website designer India",
       "h1": "Website Design & Development",
       "intro": "Fast, mobile-first websites and online stores that turn visitors into enquiries.",
       "service": "Website Design & Development",
@@ -289,9 +289,9 @@
       ]
     },
     "/services/software-solutions": {
-      "title": "Mobile App & Custom Software Development | GrowWWW",
+      "title": "Software & App Development Company in India | GrowWWW",
       "description": "Android & iOS app development, Flutter apps, web applications, CRM and custom software built around how your business works. Mumbai, Navi Mumbai, Lucknow.",
-      "keywords": "mobile app development company, android app development, iOS app development, Flutter app development, custom software development, web application development, CRM development, ERP software, SaaS development, app developers in Mumbai, software company in Lucknow",
+      "keywords": "mobile app development company, android app development, iOS app development, Flutter app development, custom software development, web application development, CRM development, ERP software, SaaS development, app developers in Mumbai, software company in Lucknow, software development company in India, custom software development India, app development company India, mobile app developers India, IT company India, software outsourcing India",
       "h1": "App & Custom Software Development",
       "intro": "Android, iOS and web applications engineered to deliver seamless user experiences and measurable results.",
       "service": "Mobile App & Custom Software Development",
@@ -321,9 +321,9 @@
       ]
     },
     "/services/automations": {
-      "title": "AI Automation & Business Process Automation Services | GrowWWW",
+      "title": "AI & Business Automation Company in India | GrowWWW",
       "description": "AI agents, chatbots and workflow automation that capture enquiries, follow up and update reports on their own. Mumbai, Navi Mumbai & Lucknow.",
-      "keywords": "AI automation services, AI agent development, AI chatbot development, business process automation, workflow automation, RPA, CRM automation, lead management automation, WhatsApp automation, WhatsApp business API, Google Sheets automation, invoice automation, n8n, Zapier and Make integration",
+      "keywords": "AI automation services, AI agent development, AI chatbot development, business process automation, workflow automation, RPA, CRM automation, lead management automation, WhatsApp automation, WhatsApp business API, Google Sheets automation, invoice automation, n8n, Zapier and Make integration, AI automation company India, AI agent development India, AI chatbot company India, business process automation India, WhatsApp automation India",
       "h1": "AI & Business Automation",
       "intro": "AI agents and automations that answer customers, follow up on leads and update your reports - so your team saves hours every week.",
       "service": "Business Automation",
@@ -353,9 +353,9 @@
       ]
     },
     "/services/digital-marketing": {
-      "title": "Digital Marketing & SEO Services | GrowWWW",
+      "title": "Digital Marketing & SEO Agency in India | GrowWWW",
       "description": "SEO, local SEO, Google Business Profile, Google Ads and social media marketing that bring real enquiries. Digital marketing agency in Mumbai & Lucknow.",
-      "keywords": "digital marketing agency, SEO services, SEO company in Mumbai, SEO company in Lucknow, local SEO, Google Business Profile optimisation, Google Ads management, PPC services, social media marketing, Instagram marketing, Facebook ads, content marketing, lead generation services",
+      "keywords": "digital marketing agency, SEO services, SEO company in Mumbai, SEO company in Lucknow, local SEO, Google Business Profile optimisation, Google Ads management, PPC services, social media marketing, Instagram marketing, Facebook ads, content marketing, lead generation services, digital marketing agency India, SEO company India, SEO services India, Google Ads agency India, online marketing company India",
       "h1": "Digital Marketing & SEO",
       "intro": "Google, social and search marketing that brings the right customers to your door.",
       "service": "Digital Marketing & SEO",
@@ -385,9 +385,9 @@
       ]
     },
     "/services/algo-trading": {
-      "title": "Algo Trading Software & Trading Bot Development | GrowWWW",
+      "title": "Algo Trading Software Development in India | GrowWWW",
       "description": "Custom algo trading software and trading bots - Zerodha, Upstox and Angel One API integration, TradingView alerts, backtesting and Telegram alerts.",
-      "keywords": "algo trading software development, algorithmic trading software, trading bot development, algo trading developer India, Zerodha Kite Connect API developer, Upstox API, Angel One SmartAPI, TradingView to broker automation, Pine Script developer, backtesting software, options trading bot, crypto trading bot, automated trading system, Python trading bot, algo trading Mumbai, algo trading Lucknow",
+      "keywords": "algo trading software development, algorithmic trading software, trading bot development, algo trading developer India, Zerodha Kite Connect API developer, Upstox API, Angel One SmartAPI, TradingView to broker automation, Pine Script developer, backtesting software, options trading bot, crypto trading bot, automated trading system, Python trading bot, algo trading Mumbai, algo trading Lucknow, algo trading software India, algo trading developer India, trading bot developer India, algorithmic trading software company India, NSE algo trading software",
       "h1": "Algo Trading Software Development",
       "intro": "We turn your trading strategy into software that watches the market, places orders through your broker and keeps you informed - with backtesting, risk limits and Telegram alerts built in.",
       "service": "Algo Trading Software Development",
@@ -505,6 +505,693 @@
       ],
       "priority": 0.9
     },
+    "/software-development-company-mumbai": {
+      "title": "Software Development Company in Mumbai | GrowWWW",
+      "description": "Custom software, CRM and mobile app development in Mumbai - built for Andheri startups, Lower Parel firms and BKC finance teams. Free consultation.",
+      "keywords": "software development company in Mumbai, software company in Mumbai, custom software development Mumbai, app development company in Mumbai, mobile app developers Mumbai, CRM software Mumbai, ERP software Mumbai, web application development Mumbai, IT company in Mumbai, SaaS development Mumbai",
+      "h1": "Software development company in Mumbai",
+      "intro": "From Andheri and Powai startups to finance and consulting teams in Lower Parel and BKC, we build the apps, CRMs and internal tools Mumbai businesses run on - designed around how your team actually works.",
+      "city": "Mumbai",
+      "areas": [
+        "Andheri",
+        "Bandra-Kurla Complex",
+        "Lower Parel",
+        "Powai",
+        "Goregaon",
+        "Malad",
+        "Borivali",
+        "Dadar",
+        "Thane"
+      ],
+      "industries": [
+        "Startups in Andheri and Powai building their first app or SaaS",
+        "Finance, broking and consulting firms that need client portals and dashboards",
+        "D2C and retail brands that need order, stock and delivery tools",
+        "Real estate developers tracking site visits, bookings and payments",
+        "Clinics and diagnostic centres that need booking and patient records"
+      ],
+      "service": "Custom Software & App Development",
+      "serviceBase": "/services/software-solutions",
+      "formService": "Custom software / CRM",
+      "included": [
+        "Android and iOS apps from one codebase with Flutter or React Native",
+        "Custom web applications, dashboards and customer portals",
+        "CRM, ERP, inventory and billing software built around your process",
+        "Admin panels so your team can update content without a developer",
+        "API integrations with payment gateways, WhatsApp, Tally, Google Sheets and more",
+        "Play Store and App Store publishing, analytics and crash reporting",
+        "Maintenance, updates and new features after launch"
+      ],
+      "faqs": [
+        {
+          "q": "Do you build custom software for Mumbai businesses?",
+          "a": "Yes. We build web apps, CRMs, ERPs, client portals and Android/iOS apps for Mumbai companies, and can meet at your office or work over video calls."
+        },
+        {
+          "q": "Can you build an app for my startup in Mumbai?",
+          "a": "Yes. We help founders plan the first version, design the screens and build it in Flutter or React, then launch on the Play Store and App Store."
+        },
+        {
+          "q": "Can you connect new software to the tools we already use?",
+          "a": "Usually, yes - Tally, Zoho, Google Sheets, payment gateways, WhatsApp and most tools with an API can be connected so data isn't typed twice."
+        },
+        {
+          "q": "How do you price software projects?",
+          "a": "After a free consultation we send a written scope with features, timeline and a fixed quote or monthly plan - no hidden charges."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/software-development-company-navi-mumbai": {
+      "title": "Software Development Company in Navi Mumbai | GrowWWW",
+      "description": "Software and app development in Navi Mumbai - logistics, MIDC manufacturing, schools and clinics in Vashi, Belapur, Airoli and Panvel. Free consultation.",
+      "keywords": "software development company in Navi Mumbai, software company in Navi Mumbai, custom software development Navi Mumbai, app development company in Navi Mumbai, mobile app developers Navi Mumbai, CRM software Navi Mumbai, ERP software Navi Mumbai, web application development Navi Mumbai, IT company in Navi Mumbai, SaaS development Navi Mumbai",
+      "h1": "Software development company in Navi Mumbai",
+      "intro": "Navi Mumbai runs on logistics, manufacturing and fast-growing neighbourhoods. We build software for it - from shipment and warehouse tools near JNPT to ERPs for MIDC units and apps for schools and clinics in Kharghar and Vashi.",
+      "city": "Navi Mumbai",
+      "areas": [
+        "Vashi",
+        "Nerul",
+        "CBD Belapur",
+        "Kharghar",
+        "Airoli",
+        "Ghansoli",
+        "Seawoods",
+        "Panvel",
+        "Ulwe"
+      ],
+      "industries": [
+        "Logistics, freight and warehousing companies around JNPT and Taloja",
+        "Manufacturers in TTC and Taloja MIDC that need ERP, inventory or dispatch tools",
+        "Schools and coaching institutes in Kharghar, Nerul and Vashi",
+        "Clinics and hospitals that need appointment and patient systems",
+        "IT and back-office teams in Airoli and Ghansoli"
+      ],
+      "service": "Custom Software & App Development",
+      "serviceBase": "/services/software-solutions",
+      "formService": "Custom software / CRM",
+      "included": [
+        "Android and iOS apps from one codebase with Flutter or React Native",
+        "Custom web applications, dashboards and customer portals",
+        "CRM, ERP, inventory and billing software built around your process",
+        "Admin panels so your team can update content without a developer",
+        "API integrations with payment gateways, WhatsApp, Tally, Google Sheets and more",
+        "Play Store and App Store publishing, analytics and crash reporting",
+        "Maintenance, updates and new features after launch"
+      ],
+      "faqs": [
+        {
+          "q": "Do you develop software for logistics companies in Navi Mumbai?",
+          "a": "Yes. We build shipment tracking, warehouse and dispatch tools, driver apps and customer portals, connected to your existing spreadsheets or ERP."
+        },
+        {
+          "q": "Can you build an ERP for a MIDC manufacturing unit?",
+          "a": "Yes. We build ERPs covering purchase, inventory, production, dispatch and GST-ready billing, sized to your plant rather than a one-size-fits-all package."
+        },
+        {
+          "q": "Do you make school or coaching management apps?",
+          "a": "Yes - admissions, fee collection, attendance, timetables and parent updates on WhatsApp or an app."
+        },
+        {
+          "q": "Can you meet us in Navi Mumbai?",
+          "a": "Yes. GrowWWW has a Navi Mumbai office, so we can meet in Vashi, Belapur or at your site, or work over phone and video calls."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/software-development-company-lucknow": {
+      "title": "Software Development Company in Lucknow | GrowWWW",
+      "description": "Software and mobile app development in Lucknow - school, hospital, retail and export software for Gomti Nagar, Hazratganj and beyond. Free consultation.",
+      "keywords": "software development company in Lucknow, software company in Lucknow, custom software development Lucknow, app development company in Lucknow, mobile app developers Lucknow, CRM software Lucknow, ERP software Lucknow, web application development Lucknow, IT company in Lucknow, SaaS development Lucknow",
+      "h1": "Software development company in Lucknow",
+      "intro": "We build software for Lucknow businesses - school and coaching management systems, hospital and clinic software, billing and stock tools for traders, and apps that help chikankari and handicraft exporters sell beyond the city.",
+      "city": "Lucknow",
+      "areas": [
+        "Gomti Nagar",
+        "Hazratganj",
+        "Aliganj",
+        "Indira Nagar",
+        "Mahanagar",
+        "Jankipuram",
+        "Aminabad",
+        "Chowk",
+        "Alambagh"
+      ],
+      "industries": [
+        "Schools, colleges and coaching institutes",
+        "Hospitals, nursing homes and clinics",
+        "Chikankari, handicraft and fashion exporters",
+        "Traders, distributors and wholesalers in Aminabad and Chowk",
+        "Builders and real estate firms in Gomti Nagar and Sushant Golf City"
+      ],
+      "service": "Custom Software & App Development",
+      "serviceBase": "/services/software-solutions",
+      "formService": "Custom software / CRM",
+      "included": [
+        "Android and iOS apps from one codebase with Flutter or React Native",
+        "Custom web applications, dashboards and customer portals",
+        "CRM, ERP, inventory and billing software built around your process",
+        "Admin panels so your team can update content without a developer",
+        "API integrations with payment gateways, WhatsApp, Tally, Google Sheets and more",
+        "Play Store and App Store publishing, analytics and crash reporting",
+        "Maintenance, updates and new features after launch"
+      ],
+      "faqs": [
+        {
+          "q": "Is there a software company in Lucknow that builds custom apps?",
+          "a": "Yes. GrowWWW has a Lucknow office and builds custom web apps, Android/iOS apps, CRMs and ERPs for local businesses."
+        },
+        {
+          "q": "Do you make school management software in Lucknow?",
+          "a": "Yes - admissions, fees, attendance, exams, transport and parent communication, built around how your institution works."
+        },
+        {
+          "q": "Can you build hospital or clinic software?",
+          "a": "Yes. We build appointment booking, patient records, billing and pharmacy stock tools, with WhatsApp reminders for patients."
+        },
+        {
+          "q": "Will the software work in Hindi?",
+          "a": "Yes. Screens, messages and reports can be in Hindi, English or both."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/ai-automation-company-mumbai": {
+      "title": "AI & Business Automation Company in Mumbai | GrowWWW",
+      "description": "AI automation for Mumbai businesses - AI chatbots, WhatsApp agents and workflow automation that reply to leads in seconds. Free consultation.",
+      "keywords": "AI automation company in Mumbai, business automation Mumbai, AI chatbot development Mumbai, AI agent development Mumbai, WhatsApp automation Mumbai, workflow automation Mumbai, CRM automation Mumbai, RPA services Mumbai, process automation Mumbai",
+      "h1": "AI & business automation company in Mumbai",
+      "intro": "Mumbai customers expect a reply in minutes, not hours. We set up AI agents and automations that answer enquiries on WhatsApp and your website, follow up on leads, book meetings and update your CRM - day and night.",
+      "city": "Mumbai",
+      "areas": [
+        "Andheri",
+        "Bandra-Kurla Complex",
+        "Lower Parel",
+        "Powai",
+        "Goregaon",
+        "Malad",
+        "Borivali",
+        "Dadar",
+        "Thane"
+      ],
+      "industries": [
+        "Real estate developers and brokers handling hundreds of site-visit enquiries",
+        "D2C and retail brands answering order and delivery questions",
+        "CA firms and consultants collecting documents from clients",
+        "Clinics and salons managing appointments and reminders",
+        "Agencies and service firms that want leads followed up automatically"
+      ],
+      "service": "AI & Business Automation",
+      "serviceBase": "/services/automations",
+      "formService": "AI & business automation",
+      "included": [
+        "Website, IndiaMART, JustDial and social media enquiries collected in one place",
+        "WhatsApp auto-replies, broadcasts and follow-up reminders",
+        "Instant lead alerts on Telegram, WhatsApp or email",
+        "AI chatbots that answer common questions and book calls",
+        "Automatic quotations, invoices and payment reminders",
+        "Daily and weekly reports sent to your phone",
+        "Integrations between Google Sheets, CRMs, Tally and other tools"
+      ],
+      "faqs": [
+        {
+          "q": "What can AI automation do for a Mumbai business?",
+          "a": "It replies to enquiries instantly, qualifies leads, books appointments, sends follow-ups and reminders, and keeps your CRM and Google Sheets up to date without manual typing."
+        },
+        {
+          "q": "Can an AI chatbot reply to customers on WhatsApp?",
+          "a": "Yes. We set up an AI agent on the official WhatsApp Business API that answers common questions from your own information and hands over to your team when needed."
+        },
+        {
+          "q": "Will automation work with our existing CRM?",
+          "a": "Usually, yes - Zoho, HubSpot, Salesforce, Google Sheets and most tools with an API can be connected."
+        },
+        {
+          "q": "Is customer data kept private?",
+          "a": "We use official APIs, keep data in your own accounts where possible and limit who can see it."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/ai-automation-company-navi-mumbai": {
+      "title": "AI & Business Automation Company in Navi Mumbai | GrowWWW",
+      "description": "AI and business automation in Navi Mumbai - WhatsApp order-taking for APMC traders, shipment updates for logistics firms and clinic reminders.",
+      "keywords": "AI automation company in Navi Mumbai, business automation Navi Mumbai, AI chatbot development Navi Mumbai, AI agent development Navi Mumbai, WhatsApp automation Navi Mumbai, workflow automation Navi Mumbai, CRM automation Navi Mumbai, RPA services Navi Mumbai, process automation Navi Mumbai",
+      "h1": "AI & business automation company in Navi Mumbai",
+      "intro": "We automate the repetitive work that slows Navi Mumbai businesses down - taking orders on WhatsApp for traders in Vashi APMC, sending shipment updates for logistics firms, and appointment reminders for clinics in Kharghar and Nerul.",
+      "city": "Navi Mumbai",
+      "areas": [
+        "Vashi",
+        "Nerul",
+        "CBD Belapur",
+        "Kharghar",
+        "Airoli",
+        "Ghansoli",
+        "Seawoods",
+        "Panvel",
+        "Ulwe"
+      ],
+      "industries": [
+        "APMC traders and wholesalers taking orders over WhatsApp",
+        "Logistics and transport companies sending status updates",
+        "Manufacturers automating quotes, dispatch and invoices",
+        "Clinics and diagnostic labs sending reminders and reports",
+        "Coaching institutes following up on admission enquiries"
+      ],
+      "service": "AI & Business Automation",
+      "serviceBase": "/services/automations",
+      "formService": "AI & business automation",
+      "included": [
+        "Website, IndiaMART, JustDial and social media enquiries collected in one place",
+        "WhatsApp auto-replies, broadcasts and follow-up reminders",
+        "Instant lead alerts on Telegram, WhatsApp or email",
+        "AI chatbots that answer common questions and book calls",
+        "Automatic quotations, invoices and payment reminders",
+        "Daily and weekly reports sent to your phone",
+        "Integrations between Google Sheets, CRMs, Tally and other tools"
+      ],
+      "faqs": [
+        {
+          "q": "Can you automate WhatsApp orders for a trading business?",
+          "a": "Yes. Customers can place orders, check rates and get invoices on WhatsApp, and every order lands in your sheet or software automatically."
+        },
+        {
+          "q": "Can shipment updates be sent automatically?",
+          "a": "Yes. When a status changes in your system or sheet, the customer gets a WhatsApp or SMS update without anyone sending it by hand."
+        },
+        {
+          "q": "What is an AI agent?",
+          "a": "Software that reads a message, understands what the customer wants and takes the next step - answering, booking or passing it to your team - using your own business information."
+        },
+        {
+          "q": "Do you have a team in Navi Mumbai?",
+          "a": "Yes. GrowWWW has a Navi Mumbai office and can visit you or work over phone and video calls."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/ai-automation-company-lucknow": {
+      "title": "AI & Business Automation Company in Lucknow | GrowWWW",
+      "description": "AI automation in Lucknow - chatbots, WhatsApp automation and workflow tools for coaching institutes, hospitals and retailers. Free consultation.",
+      "keywords": "AI automation company in Lucknow, business automation Lucknow, AI chatbot development Lucknow, AI agent development Lucknow, WhatsApp automation Lucknow, workflow automation Lucknow, CRM automation Lucknow, RPA services Lucknow, process automation Lucknow",
+      "h1": "AI & business automation company in Lucknow",
+      "intro": "We help Lucknow businesses save hours every week - AI chatbots that answer admission and appointment questions, WhatsApp reminders for fees and visits, and automations that move data between your forms, sheets and software.",
+      "city": "Lucknow",
+      "areas": [
+        "Gomti Nagar",
+        "Hazratganj",
+        "Aliganj",
+        "Indira Nagar",
+        "Mahanagar",
+        "Jankipuram",
+        "Aminabad",
+        "Chowk",
+        "Alambagh"
+      ],
+      "industries": [
+        "Coaching institutes and schools handling admission enquiries",
+        "Hospitals and clinics sending appointment and report updates",
+        "Retailers and sweet shops taking orders on WhatsApp",
+        "Exporters sending quotes and order status to buyers",
+        "Real estate firms following up on site-visit leads"
+      ],
+      "service": "AI & Business Automation",
+      "serviceBase": "/services/automations",
+      "formService": "AI & business automation",
+      "included": [
+        "Website, IndiaMART, JustDial and social media enquiries collected in one place",
+        "WhatsApp auto-replies, broadcasts and follow-up reminders",
+        "Instant lead alerts on Telegram, WhatsApp or email",
+        "AI chatbots that answer common questions and book calls",
+        "Automatic quotations, invoices and payment reminders",
+        "Daily and weekly reports sent to your phone",
+        "Integrations between Google Sheets, CRMs, Tally and other tools"
+      ],
+      "faqs": [
+        {
+          "q": "Can you set up an admission enquiry chatbot for my coaching institute?",
+          "a": "Yes. It answers questions about courses, fees and batches in Hindi or English, collects student details and alerts your counsellor."
+        },
+        {
+          "q": "Can fee reminders be sent automatically on WhatsApp?",
+          "a": "Yes. Reminders, receipts and due-date alerts can go out automatically from your fee records."
+        },
+        {
+          "q": "Is AI automation affordable for a small business?",
+          "a": "Yes - most projects start with one or two automations that save the most time, and grow from there."
+        },
+        {
+          "q": "Do you have an office in Lucknow?",
+          "a": "Yes. GrowWWW has a Lucknow office, and we also work over phone, WhatsApp and video calls."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/algo-trading-software-developer-mumbai": {
+      "title": "Algo Trading Software Developer in Mumbai | GrowWWW",
+      "description": "Algo trading software developer in Mumbai - custom trading bots on Zerodha, Upstox and Angel One APIs, TradingView automation and backtesting.",
+      "keywords": "algo trading software developer Mumbai, algo trading developer in Mumbai, algorithmic trading software Mumbai, trading bot developer Mumbai, Zerodha API developer Mumbai, Kite Connect developer, TradingView automation Mumbai, options trading bot Mumbai, Python trading bot Mumbai",
+      "h1": "Algo trading software developer in Mumbai",
+      "intro": "For Mumbai traders and trading desks, we turn strategies into software - bots that trade through your broker's official API, TradingView alerts that place orders on their own, backtesting before real money, and Telegram alerts for every trade.",
+      "city": "Mumbai",
+      "areas": [
+        "Andheri",
+        "Bandra-Kurla Complex",
+        "Lower Parel",
+        "Powai",
+        "Goregaon",
+        "Malad",
+        "Borivali",
+        "Dadar",
+        "Thane"
+      ],
+      "industries": [
+        "Individual options and futures traders",
+        "Proprietary trading desks and small funds",
+        "Advisors and analysts who want their signals automated",
+        "Traders moving from Excel or manual execution to code",
+        "Crypto and forex traders using exchange APIs"
+      ],
+      "service": "Algo Trading Software Development",
+      "serviceBase": "/services/algo-trading",
+      "formService": "Algo trading software",
+      "included": [
+        "Your strategy rules written into a trading bot (Python)",
+        "Backtesting on past data before any real money is used",
+        "Broker API integration - Zerodha Kite Connect, Upstox, Angel One, Dhan, Fyers and more",
+        "TradingView and Pine Script alerts turned into automatic orders",
+        "Risk controls: position size, stop-loss, daily loss limit and a kill switch",
+        "Paper trading mode to test the bot live without real orders",
+        "Telegram alerts for every signal, order and exit, plus daily P&L reports",
+        "Set-up on a cloud server (VPS) so it runs 24x7, with monitoring and support"
+      ],
+      "faqs": [
+        {
+          "q": "Can you build a trading bot for my strategy in Mumbai?",
+          "a": "Yes. Share your entry, exit and risk rules - even in plain words or as a TradingView indicator - and we write, backtest and deploy them on your broker's API."
+        },
+        {
+          "q": "Which brokers do you work with?",
+          "a": "Zerodha Kite Connect, Upstox, Angel One SmartAPI, Dhan, Fyers and other brokers with an official API, plus Interactive Brokers and crypto exchanges."
+        },
+        {
+          "q": "Is algo trading legal for retail traders?",
+          "a": "Yes, through your broker and within SEBI's framework for retail algo trading. We set bots up to follow your broker's rules for API access and strategy registration."
+        },
+        {
+          "q": "Do you give trading tips or guarantee returns?",
+          "a": "No. We build and maintain the software; the strategy and decisions are yours, and trading always carries risk."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/algo-trading-software-developer-navi-mumbai": {
+      "title": "Algo Trading Software Developer in Navi Mumbai | GrowWWW",
+      "description": "Algo trading software in Navi Mumbai - trading bots, TradingView-to-broker automation, backtesting and Telegram alerts for retail and F&O traders.",
+      "keywords": "algo trading software developer Navi Mumbai, algo trading developer in Navi Mumbai, algorithmic trading software Navi Mumbai, trading bot developer Navi Mumbai, Zerodha API developer Navi Mumbai, Kite Connect developer, TradingView automation Navi Mumbai, options trading bot Navi Mumbai, Python trading bot Navi Mumbai",
+      "h1": "Algo trading software developer in Navi Mumbai",
+      "intro": "We build algo trading software for traders in Vashi, Kharghar, Belapur and across Navi Mumbai - from a single strategy on Zerodha or Upstox to multi-strategy bots on a cloud server, with risk limits and Telegram alerts built in.",
+      "city": "Navi Mumbai",
+      "areas": [
+        "Vashi",
+        "Nerul",
+        "CBD Belapur",
+        "Kharghar",
+        "Airoli",
+        "Ghansoli",
+        "Seawoods",
+        "Panvel",
+        "Ulwe"
+      ],
+      "industries": [
+        "Retail F&O traders who want rules followed without emotion",
+        "Working professionals who can't watch the market all day",
+        "Traders running TradingView or Amibroker strategies",
+        "Small trading teams that need a shared dashboard",
+        "Crypto traders using exchange APIs"
+      ],
+      "service": "Algo Trading Software Development",
+      "serviceBase": "/services/algo-trading",
+      "formService": "Algo trading software",
+      "included": [
+        "Your strategy rules written into a trading bot (Python)",
+        "Backtesting on past data before any real money is used",
+        "Broker API integration - Zerodha Kite Connect, Upstox, Angel One, Dhan, Fyers and more",
+        "TradingView and Pine Script alerts turned into automatic orders",
+        "Risk controls: position size, stop-loss, daily loss limit and a kill switch",
+        "Paper trading mode to test the bot live without real orders",
+        "Telegram alerts for every signal, order and exit, plus daily P&L reports",
+        "Set-up on a cloud server (VPS) so it runs 24x7, with monitoring and support"
+      ],
+      "faqs": [
+        {
+          "q": "Can my TradingView alerts place orders automatically?",
+          "a": "Yes. We connect your TradingView alerts to your broker's API so orders are placed, sized and protected with a stop-loss automatically."
+        },
+        {
+          "q": "Can I test a strategy before using real money?",
+          "a": "Yes. Every bot comes with backtesting on past data and a paper-trading mode that runs live without placing real orders."
+        },
+        {
+          "q": "Where does the bot run?",
+          "a": "On a cloud server close to the exchange, running 24x7 with automatic restarts and daily logs - your computer doesn't need to stay on."
+        },
+        {
+          "q": "Do you guarantee profits?",
+          "a": "No. We build the software; trading carries risk and the strategy decisions remain yours."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/algo-trading-software-developer-lucknow": {
+      "title": "Algo Trading Software Developer in Lucknow | GrowWWW",
+      "description": "Algo trading software developer in Lucknow - trading bots, broker API integration, backtesting and Telegram alerts for NSE, F&O and crypto traders.",
+      "keywords": "algo trading software developer Lucknow, algo trading developer in Lucknow, algorithmic trading software Lucknow, trading bot developer Lucknow, Zerodha API developer Lucknow, Kite Connect developer, TradingView automation Lucknow, options trading bot Lucknow, Python trading bot Lucknow",
+      "h1": "Algo trading software developer in Lucknow",
+      "intro": "Lucknow's trading community is growing fast. We help traders here automate their strategies - bots on Zerodha, Upstox and Angel One APIs, TradingView automation, backtesting reports and Telegram alerts - without needing to code.",
+      "city": "Lucknow",
+      "areas": [
+        "Gomti Nagar",
+        "Hazratganj",
+        "Aliganj",
+        "Indira Nagar",
+        "Mahanagar",
+        "Jankipuram",
+        "Aminabad",
+        "Chowk",
+        "Alambagh"
+      ],
+      "industries": [
+        "Part-time traders who can't watch screens all day",
+        "Options traders who want strict stop-losses and position sizing",
+        "Traders with a TradingView or Excel strategy to automate",
+        "Trading educators who want to demonstrate strategies",
+        "Crypto traders using exchange APIs"
+      ],
+      "service": "Algo Trading Software Development",
+      "serviceBase": "/services/algo-trading",
+      "formService": "Algo trading software",
+      "included": [
+        "Your strategy rules written into a trading bot (Python)",
+        "Backtesting on past data before any real money is used",
+        "Broker API integration - Zerodha Kite Connect, Upstox, Angel One, Dhan, Fyers and more",
+        "TradingView and Pine Script alerts turned into automatic orders",
+        "Risk controls: position size, stop-loss, daily loss limit and a kill switch",
+        "Paper trading mode to test the bot live without real orders",
+        "Telegram alerts for every signal, order and exit, plus daily P&L reports",
+        "Set-up on a cloud server (VPS) so it runs 24x7, with monitoring and support"
+      ],
+      "faqs": [
+        {
+          "q": "Do I need to know coding to use an algo trading bot?",
+          "a": "No. We build and set everything up; you control it from simple settings, a dashboard and Telegram alerts."
+        },
+        {
+          "q": "Can you automate options strategies?",
+          "a": "Yes - entries, exits, adjustments, stop-losses and daily loss limits, through your broker's official API."
+        },
+        {
+          "q": "Is it allowed under SEBI rules?",
+          "a": "Retail algo trading is allowed through your broker within SEBI's framework. We set bots up to follow your broker's API and registration rules."
+        },
+        {
+          "q": "Can you meet in Lucknow?",
+          "a": "Yes. GrowWWW has a Lucknow office; we also work over phone and video calls."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/digital-marketing-agency-mumbai": {
+      "title": "Digital Marketing & SEO Agency in Mumbai | GrowWWW",
+      "description": "Digital marketing and SEO agency in Mumbai - local SEO, Google Ads, Instagram and lead generation for Mumbai businesses. Free consultation.",
+      "keywords": "digital marketing agency in Mumbai, digital marketing company Mumbai, SEO company in Mumbai, SEO services Mumbai, local SEO Mumbai, Google Ads agency Mumbai, social media marketing Mumbai, Google Business Profile Mumbai, lead generation Mumbai",
+      "h1": "Digital marketing & SEO agency in Mumbai",
+      "intro": "Mumbai is one of India's most competitive markets online. We help businesses win it - ranking for the searches your customers make, Google and Meta ads that bring enquiries rather than clicks, and Google Business Profiles that show up on Maps.",
+      "city": "Mumbai",
+      "areas": [
+        "Andheri",
+        "Bandra-Kurla Complex",
+        "Lower Parel",
+        "Powai",
+        "Goregaon",
+        "Malad",
+        "Borivali",
+        "Dadar",
+        "Thane"
+      ],
+      "industries": [
+        "Real estate projects and brokers",
+        "Clinics, dentists and diagnostic centres",
+        "D2C, fashion and lifestyle brands",
+        "Restaurants, cafés and salons",
+        "Consultants, CA firms and B2B service companies"
+      ],
+      "service": "Digital Marketing & SEO",
+      "serviceBase": "/services/digital-marketing",
+      "formService": "SEO & Google ranking",
+      "included": [
+        "SEO audits, keyword research and on-page optimisation",
+        "Local SEO and Google Business Profile management for 'near me' searches",
+        "Google Ads (search, display, YouTube) with conversion tracking",
+        "Instagram and Facebook ads that generate leads, not just likes",
+        "Content and blog writing that ranks and answers customer questions",
+        "Review generation and reputation management",
+        "Monthly reports showing calls, enquiries and rankings"
+      ],
+      "faqs": [
+        {
+          "q": "How long does SEO take in Mumbai?",
+          "a": "Local searches can improve in weeks once your Google Business Profile and pages are right; competitive keywords usually take three to six months of steady work."
+        },
+        {
+          "q": "Do you run Google Ads for Mumbai businesses?",
+          "a": "Yes. We plan, run and optimise Google Search, Maps and YouTube ads, plus Meta (Facebook and Instagram) ads, tracked down to each enquiry."
+        },
+        {
+          "q": "Can you get my business on Google Maps in Mumbai?",
+          "a": "Yes. We set up and optimise your Google Business Profile with the right categories, services, photos and posts, and help you collect genuine reviews."
+        },
+        {
+          "q": "Do you report results?",
+          "a": "Yes - a simple monthly report of rankings, calls, enquiries and ad spend, in plain language."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/digital-marketing-agency-navi-mumbai": {
+      "title": "Digital Marketing & SEO Agency in Navi Mumbai | GrowWWW",
+      "description": "Digital marketing and SEO in Navi Mumbai - Google Maps, local SEO and ads for clinics, coaching, real estate and shops in Vashi, Kharghar and Panvel.",
+      "keywords": "digital marketing agency in Navi Mumbai, digital marketing company Navi Mumbai, SEO company in Navi Mumbai, SEO services Navi Mumbai, local SEO Navi Mumbai, Google Ads agency Navi Mumbai, social media marketing Navi Mumbai, Google Business Profile Navi Mumbai, lead generation Navi Mumbai",
+      "h1": "Digital marketing & SEO agency in Navi Mumbai",
+      "intro": "Most Navi Mumbai customers search \"near me\" - in Vashi, Kharghar, Nerul or Panvel. We make sure they find you: Google Business Profile, local SEO pages, reviews, and ads targeted to the nodes you actually serve.",
+      "city": "Navi Mumbai",
+      "areas": [
+        "Vashi",
+        "Nerul",
+        "CBD Belapur",
+        "Kharghar",
+        "Airoli",
+        "Ghansoli",
+        "Seawoods",
+        "Panvel",
+        "Ulwe"
+      ],
+      "industries": [
+        "Clinics, dentists and hospitals",
+        "Coaching classes and schools in Kharghar, Nerul and Vashi",
+        "Real estate projects in Ulwe, Panvel and Kharghar",
+        "Restaurants, gyms and salons",
+        "Local shops and service businesses"
+      ],
+      "service": "Digital Marketing & SEO",
+      "serviceBase": "/services/digital-marketing",
+      "formService": "SEO & Google ranking",
+      "included": [
+        "SEO audits, keyword research and on-page optimisation",
+        "Local SEO and Google Business Profile management for 'near me' searches",
+        "Google Ads (search, display, YouTube) with conversion tracking",
+        "Instagram and Facebook ads that generate leads, not just likes",
+        "Content and blog writing that ranks and answers customer questions",
+        "Review generation and reputation management",
+        "Monthly reports showing calls, enquiries and rankings"
+      ],
+      "faqs": [
+        {
+          "q": "How do I rank on Google Maps in Navi Mumbai?",
+          "a": "A complete, verified Google Business Profile, consistent name/address/phone across the web, local pages on your website and regular genuine reviews - we handle all of it."
+        },
+        {
+          "q": "Can you target ads to specific areas like Kharghar or Vashi?",
+          "a": "Yes. Google and Meta ads can be limited to the nodes and radius you serve, so you don't pay for clicks from people too far away."
+        },
+        {
+          "q": "Do you manage Instagram and Facebook?",
+          "a": "Yes - content, posting and paid campaigns, focused on enquiries rather than likes."
+        },
+        {
+          "q": "Is there a digital marketing agency in Navi Mumbai I can meet?",
+          "a": "Yes. GrowWWW has a Navi Mumbai office and can meet in person."
+        }
+      ],
+      "priority": 0.8
+    },
+    "/digital-marketing-agency-lucknow": {
+      "title": "Digital Marketing & SEO Agency in Lucknow | GrowWWW",
+      "description": "Digital marketing and SEO agency in Lucknow - Google Maps, local SEO, Google Ads and social media for Lucknow businesses. Free consultation.",
+      "keywords": "digital marketing agency in Lucknow, digital marketing company Lucknow, SEO company in Lucknow, SEO services Lucknow, local SEO Lucknow, Google Ads agency Lucknow, social media marketing Lucknow, Google Business Profile Lucknow, lead generation Lucknow",
+      "h1": "Digital marketing & SEO agency in Lucknow",
+      "intro": "We help Lucknow businesses get found - in Gomti Nagar, Hazratganj, Aliganj and beyond - with Google Maps listings, local SEO, Google and Instagram ads and social media that bring calls and walk-ins.",
+      "city": "Lucknow",
+      "areas": [
+        "Gomti Nagar",
+        "Hazratganj",
+        "Aliganj",
+        "Indira Nagar",
+        "Mahanagar",
+        "Jankipuram",
+        "Aminabad",
+        "Chowk",
+        "Alambagh"
+      ],
+      "industries": [
+        "Restaurants, sweet shops and cafés",
+        "Coaching institutes and schools",
+        "Hospitals, clinics and diagnostic labs",
+        "Chikankari and fashion brands selling online",
+        "Real estate projects and builders"
+      ],
+      "service": "Digital Marketing & SEO",
+      "serviceBase": "/services/digital-marketing",
+      "formService": "SEO & Google ranking",
+      "included": [
+        "SEO audits, keyword research and on-page optimisation",
+        "Local SEO and Google Business Profile management for 'near me' searches",
+        "Google Ads (search, display, YouTube) with conversion tracking",
+        "Instagram and Facebook ads that generate leads, not just likes",
+        "Content and blog writing that ranks and answers customer questions",
+        "Review generation and reputation management",
+        "Monthly reports showing calls, enquiries and rankings"
+      ],
+      "faqs": [
+        {
+          "q": "How can my Lucknow business show up on Google?",
+          "a": "We optimise your Google Business Profile, build pages for the searches people make in Lucknow, fix your website's speed and structure, and help collect reviews."
+        },
+        {
+          "q": "Do you do SEO in Hindi?",
+          "a": "Yes. We can target Hindi and Hinglish searches alongside English."
+        },
+        {
+          "q": "Can you help a chikankari brand sell online?",
+          "a": "Yes - product listings, Instagram and Google Shopping campaigns, and SEO for searches like \"chikankari kurti online\"."
+        },
+        {
+          "q": "Do you have an office in Lucknow?",
+          "a": "Yes. GrowWWW has a Lucknow office, so we can meet in person."
+        }
+      ],
+      "priority": 0.8
+    },
     "/portfolio": {
       "title": "Portfolio & Case Studies | GrowWWW",
       "description": "Websites, apps, automation and marketing projects GrowWWW has delivered for clients in Mumbai, Lucknow, across India and abroad.",
@@ -553,6 +1240,26 @@
     {
       "q": "How quickly will you reply to my enquiry?",
       "a": "We get back to every enquiry within 24–48 hours. For anything urgent, call or WhatsApp us."
+    },
+    {
+      "q": "Do you work with businesses outside Mumbai and Lucknow?",
+      "a": "Yes. We work with businesses across India - Delhi NCR, Pune, Bengaluru, Hyderabad, Ahmedabad, Jaipur and smaller towns - and with clients abroad, over phone, WhatsApp and video calls."
+    },
+    {
+      "q": "Do you develop custom software and mobile apps?",
+      "a": "Yes. We build Android and iOS apps, web applications, CRMs, ERPs and SaaS products, designed around how your business works and connected to the tools you already use."
+    },
+    {
+      "q": "What is AI automation and how can it help my business?",
+      "a": "AI automation uses AI agents and workflows to do repetitive work for you - replying to enquiries on WhatsApp and your website, following up on leads, booking appointments and updating your CRM or Google Sheets automatically."
+    },
+    {
+      "q": "Can you build an algo trading bot for my strategy?",
+      "a": "Yes. We turn your trading rules or TradingView strategy into software that trades through your broker's official API (Zerodha, Upstox, Angel One and others), with backtesting, risk limits and Telegram alerts. We build software only - no tips or guaranteed returns."
+    },
+    {
+      "q": "Do you offer SEO and Google Ads?",
+      "a": "Yes. We run SEO, Google Business Profile optimisation, Google and Meta ads and social media marketing, and report calls and enquiries in plain language every month."
     }
   ]
 }

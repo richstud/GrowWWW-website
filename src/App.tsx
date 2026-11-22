@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import { Analytics } from "./components/Analytics";
 import { WhatsAppButton } from "./components/WhatsAppButton";
 import { ScrollToTop } from "./components/ScrollToTop";
+import seo from "./seo/seo.config.json";
 
 const About = lazy(() => import("./pages/About"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
@@ -26,6 +27,9 @@ const AlgoTrading = lazy(() => import("./pages/services/AlgoTrading"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const PortfolioDetail = lazy(() => import("./pages/PortfolioDetail"));
 const LocationPage = lazy(() => import("./pages/LocationPage"));
+
+/** Every city page in the SEO config (web design + one page per service per city). */
+const CITY_PAGES = Object.entries(seo.pages as Record<string, { city?: string }>).filter(([, p]) => p.city).map(([path]) => path);
 
 /** Same logo screen as the one in index.html, shown while a page's file downloads. */
 const PageLoading = () => (
@@ -48,9 +52,9 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/:slug" element={<PortfolioDetail />} />
-          <Route path="/web-design-company-mumbai" element={<LocationPage />} />
-          <Route path="/web-design-company-navi-mumbai" element={<LocationPage />} />
-          <Route path="/web-design-company-lucknow" element={<LocationPage />} />
+          {CITY_PAGES.map((p) => (
+            <Route key={p} path={p} element={<LocationPage />} />
+          ))}
           <Route path="/services" element={<Services />} />
           <Route path="/services/web-design" element={<WebDesign />} />
           <Route path="/services/software-solutions" element={<SoftwareSolutions />} />

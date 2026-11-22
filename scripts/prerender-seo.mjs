@@ -75,7 +75,7 @@ function serviceSchema(path, page) {
     description: page.description,
     url: site.origin + path,
     provider: { "@id": site.organization["@id"] },
-    areaServed: { "@type": "Country", name: "India" },
+    areaServed: page.city ? { "@type": "City", name: page.city } : { "@type": "Country", name: "India" },
   };
 }
 
@@ -159,7 +159,8 @@ for (const [path, page] of Object.entries(pages)) {
     extra += faqHtml(page.faqs);
   }
   if (page.city) {
-    const list = cityFaqs(page.city);
+    // City + service pages carry their own FAQs (above); the web design city pages use the general city FAQs.
+    const list = page.serviceBase ? [] : cityFaqs(page.city);
     schemas.push({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
@@ -173,8 +174,8 @@ for (const [path, page] of Object.entries(pages)) {
       address: { "@type": "PostalAddress", addressLocality: page.city, addressCountry: "IN" },
       areaServed: [{ "@type": "City", name: page.city }, ...page.areas.map((a) => ({ "@type": "Place", name: `${a}, ${page.city}` }))],
     });
-    schemas.push(faqLd(list));
-    extra += `<h2>Areas we serve in ${esc(page.city)}</h2><p>${page.areas.map(esc).join(", ")}</p><h2>Industries</h2><ul>${page.industries.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>${faqHtml(list)}`;
+    if (list.length) schemas.push(faqLd(list));
+    extra += `<h2>Areas we serve in ${esc(page.city)}</h2><p>${page.areas.map(esc).join(", ")}</p><h2>${page.serviceBase ? "Who we help" : "Industries"}</h2><ul>${page.industries.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>${faqHtml(list)}`;
   }
   if (path === "/") {
     schemas.push(faqLd(faqs));

@@ -153,9 +153,36 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-2 border-t border-border pt-8 text-center text-sm text-muted-foreground md:flex-row md:text-left">
+        {/* Services by city - helps visitors (and Google) find the right local page */}
+        <div className="mt-12 grid gap-6 border-t border-border pt-8 sm:grid-cols-3">
+          {seo.site.offices.map((o) => {
+            const slug = o.city.toLowerCase().replace(/\s+/g, "-");
+            const links = [
+              ["Web design", `/web-design-company-${slug}`],
+              ["Software", `/software-development-company-${slug}`],
+              ["AI automation", `/ai-automation-company-${slug}`],
+              ["Algo trading", `/algo-trading-software-developer-${slug}`],
+              ["Digital marketing", `/digital-marketing-agency-${slug}`],
+            ].filter(([, to]) => to in seo.pages);
+            return (
+              <div key={o.city}>
+                <p className="mb-2 text-sm font-medium text-foreground">{o.city}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {links.map(([label, to], i) => (
+                    <span key={to}>
+                      <Link to={to} className="hover:text-primary">{label}</Link>
+                      {i < links.length - 1 ? ", " : ""}
+                    </span>
+                  ))}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="mt-10 flex flex-col items-center justify-between gap-2 border-t border-border pt-8 text-center text-sm text-muted-foreground md:flex-row md:text-left">
           <p>© {new Date().getFullYear()} GrowWWW. All rights reserved.</p>
-          <p>Web design, app development, automation and SEO in Mumbai, Navi Mumbai and Lucknow.</p>
+          <p>Websites, software, AI automation, algo trading software and digital marketing - for businesses across India.</p>
         </div>
       </div>
     </footer>
