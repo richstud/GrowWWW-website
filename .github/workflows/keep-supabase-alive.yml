@@ -1,0 +1,57 @@
+# Keeps the free Supabase project from being paused for inactivity.
+# Supabase pauses free projects after ~7 days of low database activity. This workflow
+# reads one row from the public `site_content` table twice a day, which counts as activity.
+#
+# It also commits a small heartbeat file once a month, because GitHub switches off
+# scheduled workflows in public repos after 60 days without any repo activity.
+#
+# Uses the public (publishable/anon) key already in .env - the same key the website ships
+# to every visitor. No private keys are needed. To use secrets instead, add repo secrets
+# SUPABASE_URL and SUPABASE_ANON_KEY (Settings -> Secrets and variables -> Actions).
+name: Keep Supabase alive
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # 08:47 IST daily
+    - cron: "17 15 * * *"  # 20:47 IST daily
+  workflow_dispatch: {}      # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Query the database
+        env:
+          SECRET_URL: ${{ secrets.SUPABASE_URL }}
+          SECRET_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          URL="${SECRET_URL:-$(grep -oP '^VITE_SUPABASE_URL="?\K[^"]+' .env)}"
+          KEY="${SECRET_KEY:-$(grep -oP '^VITE_SUPABASE_PUBLISHABLE_KEY="?\K[^"]+' .env)}"
+          for i in 1 2 3; do
+            code=$(curl -s -o body.json -w "%{http_code}" \
+              "$URL/rest/v1/site_content?select=key&limit=1" \
+              -H "apikey: $KEY" -H "Authorization: Bearer $KEY")
+            echo "Attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then cat body.json; echo; exit 0; fi
+            sleep 20
+          done
+          echo "::error::Supabase did not answer with 200. If the project is paused, resume it in the Supabase dashboard."
+          exit 1
+
+      - name: Monthly heartbeat commit (keeps this schedule switched on)
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 3 * * *'
+        run: |
+          # Only commit on the 1st of the month (or when run by hand)
+          if [ "$(date -u +%d)" != "01" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then exit 0; fi
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .github/keepalive.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/keepalive.txt
+          git commit -m "chore: keepalive heartbeat [skip ci]" || exit 0
+          git push
