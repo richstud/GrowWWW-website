@@ -36,7 +36,7 @@ jobs:
           cache: npm
 
       - name: Install
-        run: npm ci --no-audit --no-fund
+        run: npm install --no-audit --no-fund
 
       - name: Build (Vite + SEO pages + sitemap)
         run: npm run build
