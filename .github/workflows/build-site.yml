@@ -70,12 +70,21 @@ jobs:
           chmod +x dist/_deploy/deploy.sh
 
       - name: Publish to the deploy branch
+        # Adds a new commit on top of the existing deploy branch (never rewrites it),
+        # so the server can always "pull" it cleanly.
         run: |
-          cd dist
-          git init -q -b deploy
+          REPO="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$REPO" deploy >/dev/null; then
+            git clone -q --single-branch --branch deploy "$REPO" out
+          else
+            mkdir out && git -C out init -q -b deploy && git -C out remote add origin "$REPO"
+          fi
+          rsync -a --delete --exclude .git dist/ out/
+          cd out
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
+          if git diff --cached --quiet; then echo "No changes to publish"; exit 0; fi
           git commit -q -m "Website build from ${GITHUB_SHA::7} ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" deploy
+          git push -q origin deploy
           echo "Published $(git rev-parse --short HEAD) to the deploy branch"
