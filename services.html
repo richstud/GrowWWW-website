@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon.ico is managed directly on the hosting (it is deliberately not part of the build) -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+    <link rel="preload" as="image" href="/images/logo-loading.webp" />
+    <meta name="theme-color" content="#0e0c0a" />
+    <meta name="apple-mobile-web-app-title" content="GrowWWW" />
+    <meta name="author" content="GrowWWW" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Development defaults. On `npm run build`, scripts/prerender-seo.mjs replaces these
+         with each page's own title, description, canonical, social tags and structured data
+         (edit the text in src/seo/seo.config.json). -->
+    <!-- Before the app loads, visitors see a logo loading screen. The page text underneath stays in the HTML for
+         search engines and link previews, and shows by itself if the app hasn't started after 8 seconds. -->
+    <style>
+      html, body { background: #0f0d0b; margin: 0; }
+      .seo-shell { color: #ece4d6; font: 16px/1.65 "Hanken Grotesk", system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 96px 20px 64px; }
+      .seo-shell h1 { font: 500 clamp(2.2rem, 6vw, 3.6rem)/1.05 "Bodoni Moda", Georgia, serif; margin: 0 0 20px; }
+      .seo-shell h2 { font: 500 1.6rem/1.2 "Bodoni Moda", Georgia, serif; margin: 40px 0 12px; color: #d9a955; }
+      .seo-shell h3 { font-size: 1rem; margin: 20px 0 4px; }
+      .seo-shell p, .seo-shell li { color: #b8ad9c; }
+      .seo-shell a { color: #d9a955; text-decoration: none; }
+      .seo-shell nav { position: fixed; inset: 0 0 auto; padding: 22px 20px; background: #0f0d0b; border-bottom: 1px solid #2a241c; font-size: 14px; }
+      .seo-shell ul { padding-left: 18px; }
+      .seo-shell::before { content: ""; position: fixed; inset: 0; z-index: 1; background: #0a0a0a url(/images/logo-loading.webp) center / 150px no-repeat; animation: seo-reveal 0.4s ease 8s forwards; }
+      .seo-bar { position: fixed; top: 0; left: 0; height: 2px; width: 30%; background: #d9a955; animation: seo-load 1.4s ease-in-out infinite; z-index: 2; }
+      @keyframes seo-reveal { to { opacity: 0; visibility: hidden; } }
+      @keyframes seo-load { from { transform: translateX(-100%); } to { transform: translateX(340%); } }
+      @media (prefers-reduced-motion: reduce) { .seo-bar { animation: none; width: 100%; opacity: 0.4; } }
+    </style>
+    <noscript><style>.seo-shell::before, .seo-bar { display: none; }</style></noscript>
+    <script type="module" crossorigin src="/assets/index-00ASvM3P.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DSm6kSm8.css">
+      <title>Web Design, Apps, Automation &amp; SEO Services | GrowWWW</title>
+    <meta name="description" content="Website design, Android/iOS apps, custom software, AI and business automation, algo trading software, SEO and digital marketing - all from one team." />
+    <meta name="keywords" content="web development services, app development services, automation services, SEO and digital marketing services" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://www.growwww.in/services" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GrowWWW" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:url" content="https://www.growwww.in/services" />
+    <meta property="og:title" content="Web Design, Apps, Automation &amp; SEO Services | GrowWWW" />
+    <meta property="og:description" content="Website design, Android/iOS apps, custom software, AI and business automation, algo trading software, SEO and digital marketing - all from one team." />
+    <meta property="og:image" content="https://www.growwww.in/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Web Design, Apps, Automation &amp; SEO Services | GrowWWW" />
+    <meta name="twitter:description" content="Website design, Android/iOS apps, custom software, AI and business automation, algo trading software, SEO and digital marketing - all from one team." />
+    <meta name="twitter:image" content="https://www.growwww.in/images/og-image.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","@id":"https://www.growwww.in/#organization","name":"GrowWWW","alternateName":["GrowWWW Online","growwww.in"],"slogan":"Grow your business on \"WWW\"","url":"https://www.growwww.in/","logo":"https://www.growwww.in/images/logo.png","image":"https://www.growwww.in/images/og-image.jpg","description":"GrowWWW is a website design, mobile app and custom software development, AI automation, algo trading software and digital marketing company with offices in Mumbai, Navi Mumbai and Lucknow, serving businesses across India and worldwide since 2015.","foundingDate":"2015","email":"support@growwww.in","telephone":"+91-8454075281","priceRange":"₹₹","address":{"@type":"PostalAddress","streetAddress":"Bema Office Complex, D-3088, Sector AWC, Kalamboli","addressLocality":"Panvel, Navi Mumbai","addressRegion":"Maharashtra","postalCode":"410218","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Mumbai"},{"@type":"City","name":"Navi Mumbai"},{"@type":"City","name":"Thane"},{"@type":"City","name":"Lucknow"},{"@type":"Country","name":"India"},{"@type":"Place","name":"Worldwide"}],"department":[{"@type":"ProfessionalService","name":"GrowWWW Mumbai","address":{"@type":"PostalAddress","addressLocality":"Mumbai","addressRegion":"Maharashtra","addressCountry":"IN","streetAddress":"503, New Anant Bhavan, Masjid Bunder"},"telephone":"+91-8454075281","url":"https://www.growwww.in/web-design-company-mumbai","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"20:00"}]},{"@type":"ProfessionalService","name":"GrowWWW Navi Mumbai","address":{"@type":"PostalAddress","streetAddress":"Bema Office Complex, D-3088, Sector AWC, Kalamboli","addressLocality":"Panvel, Navi Mumbai","addressRegion":"Maharashtra","postalCode":"410218","addressCountry":"IN"},"telephone":"+91-8454075281","url":"https://www.growwww.in/web-design-company-navi-mumbai","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"20:00"}]},{"@type":"ProfessionalService","name":"GrowWWW Lucknow","address":{"@type":"PostalAddress","addressLocality":"Lucknow","addressRegion":"Uttar Pradesh","addressCountry":"IN","streetAddress":"Triveni Nagar, Aliganj"},"telephone":"+91-8454075281","url":"https://www.growwww.in/web-design-company-lucknow","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"20:00"}]}],"knowsAbout":["Website design","Website development","E-commerce website development","Landing page design","Website redesign","Mobile app development","Android app development","iOS app development","Flutter app development","Custom software development","CRM development","Business process automation","WhatsApp automation","AI chatbots","Workflow automation","Digital marketing","Search engine optimisation","Local SEO","Google Business Profile optimisation","Google Ads","Social media marketing","Lead generation","Algorithmic trading software development","Trading bot development","Broker API integration","Backtesting software","AI automation","AI agents"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"GrowWWW services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Website Design & Development","url":"https://www.growwww.in/services/web-design"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile App & Custom Software Development","url":"https://www.growwww.in/services/software-solutions"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Business Automation","url":"https://www.growwww.in/services/automations"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Digital Marketing & SEO","url":"https://www.growwww.in/services/digital-marketing"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Algo Trading Software Development","url":"https://www.growwww.in/services/algo-trading"}}]},"sameAs":["https://www.facebook.com/growwww","https://www.instagram.com/growwwwonline/","https://www.youtube.com/@GrowWWWonline"],"contactPoint":{"@type":"ContactPoint","telephone":"+91-8454075281","email":"support@growwww.in","contactType":"sales","areaServed":["IN","Worldwide"],"availableLanguage":["English","Hindi","Marathi"]},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"20:00"}]}</script>
+  </head>
+
+  <body>
+    <div id="root"><div class="seo-shell"><div class="seo-bar" aria-hidden="true"></div><header><nav><a href="/">Home</a> | <a href="/about">About</a> | <a href="/services">Services</a> | <a href="/products">Products</a> | <a href="/portfolio">Portfolio</a> | <a href="/contact">Contact</a></nav></header><main><h1>Our Services</h1><p>Websites, apps, automation and digital marketing - built around how your business works.</p><h2>Our services</h2><ul><li><a href="/services/web-design">Website Design &amp; Development</a> - Fast, mobile-first websites and online stores that turn visitors into enquiries.</li><li><a href="/services/software-solutions">App &amp; Custom Software Development</a> - Android, iOS and web applications engineered to deliver seamless user experiences and measurable results.</li><li><a href="/services/automations">AI &amp; Business Automation</a> - AI agents and automations that answer customers, follow up on leads and update your reports - so your team saves hours every week.</li><li><a href="/services/digital-marketing">Digital Marketing &amp; SEO</a> - Google, social and search marketing that brings the right customers to your door.</li><li><a href="/services/algo-trading">Algo Trading Software Development</a> - We turn your trading strategy into software that watches the market, places orders through your broker and keeps you informed - with backtesting, risk limits and Telegram alerts built in.</li></ul></main><footer><p>GrowWWW | <a href="mailto:support@growwww.in">support@growwww.in</a> | <a href="tel:+918454075281">+91 84540 75281</a> | Mumbai · Navi Mumbai · Lucknow</p></footer></div></div>
+  </body>
+</html>

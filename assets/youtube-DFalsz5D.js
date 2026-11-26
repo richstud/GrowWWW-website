@@ -1,0 +1,1 @@
+const e=o=>{var t;return((t=o==null?void 0:o.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/))([\w-]{11})/))==null?void 0:t[1])??null},u=o=>{const t=e(o);return t?`https://i.ytimg.com/vi/${t}/hqdefault.jpg`:null};export{e as a,u as y};
