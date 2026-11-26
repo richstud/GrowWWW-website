@@ -217,7 +217,7 @@ for (const p of products) {
     join(DIST, path.slice(1) + ".html"),
     render({
       path,
-      page: { title: `${p.name} | GrowWWW`, description: desc, h1: p.name, intro: p.description || desc, image: p.thumbnail_url || undefined },
+      page: { title: `${p.name.trim()} | GrowWWW`, description: desc, h1: p.name, intro: p.description || desc, image: p.thumbnail_url || undefined },
       schemas: [{ "@context": "https://schema.org", "@type": "SoftwareApplication", name: p.name, description: desc, applicationCategory: "BusinessApplication", url: site.origin + path, publisher: { "@id": site.organization["@id"] } }],
     })
   );

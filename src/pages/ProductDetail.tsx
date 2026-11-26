@@ -70,7 +70,7 @@ function VideoPlayer({ url }: { url: string }) {
 
 export default function ProductDetail() {
   const { slug } = useParams();
-  const { data: product, isLoading } = useQuery({
+  const { data: product, isLoading, isSuccess } = useQuery({
     queryKey: ["product", slug],
     queryFn: async () => {
       const { data, error } = await supabase.from("products").select("*").eq("slug", slug!).maybeSingle();
@@ -83,16 +83,18 @@ export default function ProductDetail() {
   return (
     <div className="min-h-screen bg-background">
       <Seo
-        title={product ? `${product.name} | GrowWWW` : "Product | GrowWWW"}
+        title={product ? `${product.name.trim()} | GrowWWW` : "Product | GrowWWW"}
         description={product?.short_description || "Software products from GrowWWW for growing businesses."}
         canonicalPath={slug ? `/products/${slug}` : "/products"}
-        noindex={!isLoading && !product}
+        // Only mark as noindex when the lookup worked and the product really doesn't exist.
+        // A failed or slow request (e.g. while Google renders the page) must not hide a real product.
+        noindex={isSuccess && !product}
         schema={
           product
             ? [{
                 "@context": "https://schema.org",
                 "@type": "SoftwareApplication",
-                name: product.name,
+                name: product.name.trim(),
                 description: product.short_description || product.description || "",
                 applicationCategory: "BusinessApplication",
                 url: `https://www.growwww.in/products/${slug}`,
